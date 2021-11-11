@@ -26,6 +26,9 @@ super + shift + {1-9}
 super + p
 	~/.config/rofi/applets/android/powermenu.sh
 
+super + d
+    bspc node focused -t \~floating
+
 #
 # bspwm hotkeys
 #
