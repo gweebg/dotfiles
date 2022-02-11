@@ -61,7 +61,7 @@ ZSH_THEME="arrow"
 
 # Plugins
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom aliases
 alias home="cd ~"
-alias activate="source env/bin/activate"
+alias activate="source .env/bin/activate"
 alias proj="cd ~/doc/proj"
 alias icat="kitty +kitten icat"
 
@@ -96,4 +96,6 @@ alias app="cd ~/doc/proj/bebados/ && activate"
 alias rc="vim ~/.zshrc"
 
 alias horario="icat ~/pic/screenshots/horario.png"
+alias lll="cd /home/guilherme/Documents/repos/grupo73 ; code ."
+alias dot="cd /home/guilherme/Documents/dotfiles"
 

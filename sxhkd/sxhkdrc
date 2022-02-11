@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 alt + backslash
-	~/.config/rofi/launchers/text/launcher.sh
+	krunner
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -16,7 +16,7 @@ super + Escape
 
 # Lock Screen (betterlockscreen)
 super + l
-	betterlockscreen -l blur
+	loginctl lock-session
 
 # Move window to another workspace
 super + shift + {1-9}
