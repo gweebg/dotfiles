@@ -1,8 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR EDITOR:vim
 SETUVAR --export PYENV_ROOT:/home/guilherme/\x2epyenv
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_patrickf1_2F_colored__man__pages_2E_fish_files:\x7e/\x2econfig/fish/functions/cless\x2efish\x1e\x7e/\x2econfig/fish/functions/man\x2efish
@@ -47,4 +48,4 @@ SETUVAR fish_pager_color_selected_background:\x1d
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/guilherme/\x2epyenv\x1e/bin\x1e/home/guilherme/go/bin\x1e/home/guilherme/Documents/Apps/coreemu\x1e/home/guilherme/\x2elocal/share/JetBrains/Toolbox/scripts\x1e/home/guilherme/\x2epyenv/bin\x1e/home/guilherme/\x2epyenv/shims\x1e/usr/local/go/bin
+SETUVAR fish_user_paths:/home/guilherme/\x2eflutter/flutter/bin\x1e/home/guilherme/\x2elocal/bin\x1e/home/guilherme/\x2epyenv\x1e/bin\x1e/home/guilherme/go/bin\x1e/home/guilherme/Documents/Apps/coreemu\x1e/home/guilherme/\x2elocal/share/JetBrains/Toolbox/scripts\x1e/home/guilherme/\x2epyenv/bin\x1e/home/guilherme/\x2epyenv/shims\x1e/usr/local/go/bin
