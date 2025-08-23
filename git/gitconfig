@@ -1,6 +1,7 @@
 [user]
 	email = guilherme.g.sampaio@gmail.com
 	name = Guilherme Sampaio
+	signingkey = /home/guilherme/.ssh/id_signingkey.pub
 [init]
   defaultBranch = main
 
@@ -22,3 +23,5 @@
 
 [diff]
     colorMoved = default
+[gpg]
+	format = ssh
