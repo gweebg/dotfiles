@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-REPO="git@github.com:ryanoasis/nerd-fonts.git"
+REPO="https://github.com/ryanoasis/nerd-fonts.git"
 INSTALL_DIR="$HOME/.nerd-fonts"
 SPACE_PER_FONT_MB=300
 
-FONTS=("CascadiaCode" "CodeNewRoman" "DejaVuSansMono" "FiraCode" "FiraMono" "Hack" "Iosevka" "JetBrainsMono" "NerdFontsSymbolsOnly" "Noto" "Ubuntu" "UbuntuMono")12
+FONTS=("CascadiaCode" "CodeNewRoman" "DejaVuSansMono" "FiraCode" "FiraMono" "Hack" "Iosevka" "JetBrainsMono" "NerdFontsSymbolsOnly" "Noto" "Ubuntu" "UbuntuMono")
 
 error() {
     echo "error: $*" >&2
@@ -31,7 +31,7 @@ clone_repo() {
 
 checkout_fonts() {
     cd "$INSTALL_DIR" || error "failed to enter install directory"
-    git sparse-checkout set install.sh $(printf "patched-fonts/%s " "${FONTS[@]}") \
+    git sparse-checkout set $(printf "patched-fonts/%s " "${FONTS[@]}") \
         || error "failed to checkout fonts"
 }
 

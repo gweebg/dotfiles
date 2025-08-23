@@ -3,7 +3,7 @@
 add_newline = false
 continuation_prompt = "[▸▹ ](dimmed white)"
 
-format = """($fill$git_metrics)\n\
+format = """
 $hostname\
 $shlvl\
 $shell\

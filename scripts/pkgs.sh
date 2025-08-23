@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 PKGS=(
-    eza
     zoxide
-    starship
     fish
     docker
     git
