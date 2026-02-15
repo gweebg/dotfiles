@@ -13,6 +13,7 @@ abbr -a -- cd 'z'
 abbr -a -- ls 'eza'
 abbr -a -- ll 'eza -alhg'
 abbr -a -- tree 'eza --tree'
+abbr -a -- clip 'xsel --clipboard'
 
 # Key-binds
 # Alt + (-> | <-)  :  Move between previous and next directories
