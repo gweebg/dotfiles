@@ -2,6 +2,7 @@
 	email = guilherme.g.sampaio@gmail.com
 	name = Guilherme Sampaio
 	signingkey = /home/guilherme/.ssh/id_signingkey.pub
+
 [init]
   defaultBranch = main
 
@@ -12,18 +13,16 @@
     diffFilter = delta --color-only
 
 [delta]
-    navigate = true    # use n and N to move between diff sections
-
-    # delta detects terminal colors automatically; set one of these to disable auto-detection
-    # dark = true
-    # light = true
+    navigate = true    
 
 [merge]
     conflictstyle = diff3
 
 [diff]
     colorMoved = default
+
 [gpg]
-	format = ssh
+    format = ssh
+
 [commit]
-	gpgsign = true
+    gpgsign = true
