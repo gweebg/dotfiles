@@ -12,7 +12,7 @@ abbr -a -- icat 'kitten icat'
 abbr -a -- g gitui
 abbr -a -- cd 'z'
 abbr -a -- ls 'eza'
-abbr -a -- ll 'eza -alh'
+abbr -a -- ll 'eza -algh'
 abbr -a -- tree 'eza --tree'
 
 # Key-binds
