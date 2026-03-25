@@ -9,12 +9,12 @@ $shlvl\
 $shell\
 $env_var\
 $jobs\
-$sudo\
 $username\
 $directory\
 $character"""
 
 right_format = """
+$python\
 $kubernetes\
 $git_branch\
 $git_commit\
@@ -117,3 +117,9 @@ format = " [$symbol$version]($style)"
 version_format = "${raw}"
 symbol = "󰏗 "
 style = "dimmed yellow italic bold"
+
+[python]
+format = " [py](italic) [${symbol}${version}]($style)"
+symbol = "[⌉](bold bright-blue)⌊ "
+version_format = "${raw}"
+style = "bold bright-yellow"
